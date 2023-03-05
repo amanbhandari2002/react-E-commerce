@@ -1,0 +1,30 @@
+.featured {
+    margin: 100px 200px;
+}
+
+.f-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 60px;
+}
+
+.f-name {
+    flex: 2;
+
+
+}
+
+.f-para {
+    font-size: 0.9rem;
+    color: rgb(144, 141, 141);
+    flex: 3;
+}
+
+.bottom {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

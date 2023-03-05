@@ -1,0 +1,45 @@
+.header{
+    height: 65px;
+}
+
+.wraper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-size: 1.2rem;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.right{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-icon span{
+    border: 1px solid rgb(32, 32, 247);
+    color: #fff;
+    background: rgb(32, 32, 247);
+    position: absolute;
+    border-radius: 50%;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    top: 12px;
+    right: 19px;
+}

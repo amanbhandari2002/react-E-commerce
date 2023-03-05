@@ -1,0 +1,61 @@
+.product{
+    display: flex;
+    height: 80vh;
+    gap: 30px;
+}
+.plleft{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.plleft img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+
+}
+.plmid{
+    flex: 2;
+    /* height: ; */
+}
+.plmid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.plright{
+    flex: 3;
+}
+
+.plPrice{
+    color: rgb(9, 161, 9);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.symb{
+    border: 1px solid transparent;
+    width: 90px;
+    height: 40px;
+    background: #F0F0F0;
+    cursor: pointer;
+}
+
+.quant{
+    margin: 0px 10px;
+}
+
+.pl-increment{
+    margin-bottom: 20px;
+}
+
+.add-cart{
+    width: 230px;
+    height: 30px;
+    background: #1183ca;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
